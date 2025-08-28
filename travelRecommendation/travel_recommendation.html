@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>TravelBloom - Discover Your Next Adventure</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>TravelBloom</h1>
+                <img src="images/logo.png" alt="TravelBloom Logo" width="50" height="50" class="logo">
+            </div>
+            <div class="nav-links">
+                <a href="travel_recommendation.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link">Contact Us</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search destinations..." class="search-input">
+                <button onclick="searchDestinations()" class="search-btn">Search</button>
+                <button onclick="clearSearch()" class="clear-btn">Clear</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Explore Dream Destinations</h2>
+                <p>Discover the world's most breathtaking destinations through our curated collection of travel experiences, expert guides, and personalized recommendations.</p>
+                <button onclick="showRecommendations()" class="cta-button">Get Recommendations</button>
+            </div>
+        </section>
+
+        <section class="filter-section">
+            <h3>Find Your Perfect Destination</h3>
+            <div class="filter-buttons">
+                <button onclick="filterRecommendations('countries')" class="filter-btn">Countries</button>
+                <button onclick="filterRecommendations('temples')" class="filter-btn">Temples</button>
+                <button onclick="filterRecommendations('beaches')" class="filter-btn">Beaches</button>
+                <button onclick="showAllRecommendations()" class="filter-btn active">All</button>
+            </div>
+        </section>
+
+        <section id="recommendations" class="recommendations-section">
+            <h3>Popular Destinations</h3>
+            <div id="recommendationsList" class="recommendations-grid">
+                <!-- Recommendations will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h3>Why Choose TravelBloom?</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4>Expert Recommendations</h4>
+                    <p>Curated destinations by travel experts with insider knowledge and local insights.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Personalized Experience</h4>
+                    <p>Tailored suggestions based on your preferences, budget, and travel style.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>Comprehensive Guides</h4>
+                    <p>Detailed travel guides with practical tips, cultural insights, and hidden gems.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>24/7 Support</h4>
+                    <p>Round-the-clock assistance to help you plan and enjoy your perfect trip.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 TravelBloom. All rights reserved. | Discover. Explore. Experience.</p>
+    </footer>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

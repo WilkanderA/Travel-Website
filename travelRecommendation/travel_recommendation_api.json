@@ -1,0 +1,90 @@
+
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "cities": ["Tokyo", "Kyoto", "Osaka"],
+      "description": "Experience the perfect blend of ancient traditions and modern innovation in the Land of the Rising Sun.",
+      "imageUrl": "images/japan.jpg",
+      "flag": "<�<�",
+      "timeToVisit": "Spring (March-May) for cherry blossoms, Fall (September-November) for autumn colors"
+    },
+    {
+      "id": 2,
+      "name": "Italy",
+      "cities": ["Rome", "Florence", "Venice"],
+      "description": "Discover art, history, cuisine, and romance in this Mediterranean paradise.",
+      "imageUrl": "images/italy.jpg",
+      "flag": "<�<�",
+      "timeToVisit": "Spring (April-June) and Fall (September-October) for pleasant weather"
+    },
+    {
+      "id": 3,
+      "name": "Iceland",
+      "cities": ["Reykjavik", "Blue Lagoon", "Golden Circle"],
+      "description": "Witness stunning natural phenomena including Northern Lights, geysers, and glaciers.",
+      "imageUrl": "images/iceland.jpg",
+      "flag": "<�<�",
+      "timeToVisit": "Summer (June-August) for midnight sun, Winter (September-March) for Northern Lights"
+    }
+  ],
+  "temples": [
+    {
+      "id": 4,
+      "name": "Angkor Wat",
+      "location": "Cambodia",
+      "description": "The world's largest religious monument and a stunning example of Khmer architecture.",
+      "imageUrl": "images/angkor-wat.jpg",
+      "timeToVisit": "November to March for cooler, dry weather",
+      "significance": "12th-century temple complex and UNESCO World Heritage Site"
+    },
+    {
+      "id": 5,
+      "name": "Borobudur",
+      "location": "Indonesia",
+      "description": "A magnificent 9th-century Mahayana Buddhist temple with intricate stone carvings.",
+      "imageUrl": "images/borobudur.jpg",
+      "timeToVisit": "April to October during dry season",
+      "significance": "Largest Buddhist temple in the world"
+    },
+    {
+      "id": 6,
+      "name": "Taj Mahal",
+      "location": "India",
+      "description": "An ivory-white marble mausoleum and symbol of eternal love.",
+      "imageUrl": "images/taj-mahal.jpg",
+      "timeToVisit": "October to March for pleasant weather",
+      "significance": "Mughal architecture masterpiece and Wonder of the World"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 7,
+      "name": "Santorini",
+      "location": "Greece",
+      "description": "Famous for its blue-domed churches, stunning sunsets, and volcanic beaches.",
+      "imageUrl": "images/santorini.jpg",
+      "activities": ["Swimming", "Sunset viewing", "Wine tasting", "Photography"],
+      "timeToVisit": "April to November, peak season June-August"
+    },
+    {
+      "id": 8,
+      "name": "Maldives",
+      "location": "Indian Ocean",
+      "description": "Pristine white sand beaches, crystal-clear waters, and luxury overwater bungalows.",
+      "imageUrl": "images/maldives.jpg",
+      "activities": ["Snorkeling", "Diving", "Spa treatments", "Water sports"],
+      "timeToVisit": "November to April during dry season"
+    },
+    {
+      "id": 9,
+      "name": "Bora Bora",
+      "location": "French Polynesia",
+      "description": "A tropical paradise with turquoise lagoons and dramatic volcanic peaks.",
+      "imageUrl": "images/bora-bora.jpg",
+      "activities": ["Scuba diving", "Shark feeding", "Helicopter tours", "Beach lounging"],
+      "timeToVisit": "May to October for dry season"
+    }
+  ]
+}
