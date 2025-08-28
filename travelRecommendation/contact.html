@@ -15,7 +15,7 @@
                 <img src="images/logo.png" alt="TravelBloom Logo" width="50" height="50" class="logo">
             </div>
             <div class="nav-links">
-                <a href="travel_recommendation.html" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="about.html" class="nav-link">About Us</a>
                 <a href="contact.html" class="nav-link active">Contact Us</a>
             </div>
@@ -211,7 +211,7 @@
                 <h3>Ready to Start Your Adventure?</h3>
                 <p>Our travel experts are standing by to help you discover your perfect destination and create unforgettable memories.</p>
                 <div class="cta-buttons">
-                    <a href="travel_recommendation.html" class="cta-button primary">Explore Destinations</a>
+                    <a href="index.html" class="cta-button primary">Explore Destinations</a>
                     <button onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'})" class="cta-button secondary">Send Message</button>
                 </div>
             </div>
@@ -230,7 +230,7 @@
             const searchInput = document.getElementById('searchInput');
             const searchTerm = searchInput.value.trim();
             if (searchTerm) {
-                window.location.href = `travel_recommendation.html?search=${encodeURIComponent(searchTerm)}`;
+                window.location.href = `index.html?search=${encodeURIComponent(searchTerm)}`;
             }
         }
         
